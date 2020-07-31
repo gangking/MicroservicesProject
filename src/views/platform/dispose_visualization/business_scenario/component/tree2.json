@@ -1,0 +1,99 @@
+{
+  "list": [
+    {
+      "label": "基础配置",
+      "type": "basicConfig"
+    },
+    {
+      "label": "单行业务事务",
+      "type": "tableSingle",
+      "children": [
+        {
+          "label": "基础信息",
+          "type": "pageSignItem",
+          "children": [
+            {
+              "label": "其他信息",
+              "type": "pageSignItemForm",
+              "childrenLabel": "其他信息"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "多行业务事务",
+      "type": "tableMultiple",
+      "children": [
+        {
+          "label": "商旅预定",
+          "type": "tableMultipleItem",
+          "children": [
+            {
+              "label": "左侧栏",
+              "type": "leftColumn"
+            },
+            {
+              "label": "业务类型",
+              "type": "businessTypeMultiple",
+              "children": [
+                {
+                  "label": "往返机票",
+                  "type": "businessTypeMultipleItem"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "规则策略",
+      "type": "ruleStrategy",
+      "children": [
+        {
+          "label": "分步策略",
+          "type": "ruleStrategy",
+          "tab": "disStrategy"
+        },
+        {
+          "label": "打印模板",
+          "type": "ruleStrategy",
+          "tab": "printTemplate"
+        },
+        {
+          "label": "有效性检查",
+          "type": "ruleStrategy",
+          "tab": "validityCheck"
+        },
+        {
+          "label": "凭证规则",
+          "type": "ruleStrategy",
+          "tab": "credentialRules"
+        },
+        {
+          "label": "替代规则",
+          "type": "ruleStrategy",
+          "tab": "subRrules"
+        }
+      ]
+    },
+    {
+      "label": "移动端",
+      "type": "ruleStrategy",
+      "children": [
+        {
+          "label": "卡片",
+          "children": [
+            {
+              "label": "卡片1"
+            },
+            {
+              "label": "卡片2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

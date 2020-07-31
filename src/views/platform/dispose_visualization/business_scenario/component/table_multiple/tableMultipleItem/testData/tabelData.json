@@ -1,0 +1,94 @@
+{
+  "tabelData": [
+    {
+      "primaryKey": "1800000001",
+      "businessAffairsId": "BT01",
+      "businessAffairsDesc": "商旅预定",
+      "secondaryBO": "SBO_Travel_ExpensesRequisition_Items",
+      "businessAffairsStatus": "基础信息",
+      "isProcess": false,
+      "isFormStatus": false,
+      "status": ""
+    },
+    {
+      "primaryKey": "1800000001",
+      "businessAffairsId": "BT01",
+      "businessAffairsDesc": "商旅预定",
+      "secondaryBO": "SBO_Travel_ExpensesRequisition_Items",
+      "businessAffairsStatus": "基础信息",
+      "isProcess": false,
+      "isFormStatus": false,
+      "status": ""
+    },
+    {
+      "primaryKey": "1800000001",
+      "businessAffairsId": "BT01",
+      "businessAffairsDesc": "商旅预定",
+      "secondaryBO": "SBO_Travel_ExpensesRequisition_Items",
+      "businessAffairsStatus": "基础信息",
+      "isProcess": false,
+      "isFormStatus": false,
+      "status": ""
+    },
+    {
+      "primaryKey": "1800000001",
+      "businessAffairsId": "BT01",
+      "businessAffairsDesc": "商旅预定",
+      "secondaryBO": "SBO_Travel_ExpensesRequisition_Items",
+      "businessAffairsStatus": "基础信息",
+      "isProcess": false,
+      "isFormStatus": false,
+      "status": ""
+    },
+    {
+      "primaryKey": "1800000001",
+      "businessAffairsId": "BT01",
+      "businessAffairsDesc": "商旅预定",
+      "secondaryBO": "SBO_Travel_ExpensesRequisition_Items",
+      "businessAffairsStatus": "基础信息",
+      "isProcess": false,
+      "isFormStatus": false,
+      "status": ""
+    },
+    {
+      "primaryKey": "1800000001",
+      "businessAffairsId": "BT01",
+      "businessAffairsDesc": "商旅预定",
+      "secondaryBO": "SBO_Travel_ExpensesRequisition_Items",
+      "businessAffairsStatus": "基础信息",
+      "isProcess": false,
+      "isFormStatus": false,
+      "status": ""
+    },
+    {
+      "primaryKey": "1800000001",
+      "businessAffairsId": "BT01",
+      "businessAffairsDesc": "商旅预定",
+      "secondaryBO": "SBO_Travel_ExpensesRequisition_Items",
+      "businessAffairsStatus": "基础信息",
+      "isProcess": false,
+      "isFormStatus": false,
+      "status": ""
+    },
+    {
+      "primaryKey": "1800000001",
+      "businessAffairsId": "BT01",
+      "businessAffairsDesc": "商旅预定",
+      "secondaryBO": "SBO_Travel_ExpensesRequisition_Items",
+      "businessAffairsStatus": "基础信息",
+      "isProcess": false,
+      "isFormStatus": false,
+      "status": ""
+    },
+    {
+      "primaryKey": "1800000001",
+      "businessAffairsId": "BT01",
+      "businessAffairsDesc": "商旅预定",
+      "secondaryBO": "SBO_Travel_ExpensesRequisition_Items",
+      "businessAffairsStatus": "基础信息",
+      "isProcess": false,
+      "isFormStatus": false,
+      "status": ""
+    }
+  ]
+}

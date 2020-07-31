@@ -1,0 +1,26 @@
+{
+  "state": 200,
+  "request": null,
+  "message": "",
+  "cause": "",
+  "variables": {},
+  "data": {
+    "fieldGap": "|",
+    "lebelPosition": "top",
+    "desGap": ":",
+    "fieldList": [
+      {
+        "currency": "RMB",
+        "label": "{\"name\":\"待分摊总额\",\"fontSize\":\"14\",\"posiztion\":\"L\",\"color\":\"#000\",\"fontFamily\":\"黑体\"}",
+        "value": "{\"name\":\"待分摊总额\",\"fontSize\":\"14\",\"posiztion\":\"L\",\"color\":\"#3498D8\",\"fontFamily\":\"黑体\"}",
+        "script": 3000
+      },
+      {
+        "currency": "RMB",
+        "label": "{\"name\":\"已分摊总额\",\"fontSize\":\"14\",\"posiztion\":\"L\",\"color\":\"#000\",\"fontFamily\":\"黑体\"}",
+        "value": "{\"name\":\"已分摊金额额\",\"fontSize\":\"14\",\"posiztion\":\"L\",\"color\":\"#3498D8\",\"fontFamily\":\"黑体\"}",
+        "script": 3000
+      }
+    ]
+  }
+}

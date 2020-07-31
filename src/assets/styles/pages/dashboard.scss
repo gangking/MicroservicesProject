@@ -1,0 +1,79 @@
+$img-px:150px;
+$transition:all .5s;
+.ibps-desktop-page {
+  height: 100%;
+  .el-card__body{
+    position: relative;
+    height: 100%;
+    .hidden{
+      overflow: hidden;
+    }
+    .body-chart{
+      color: red;
+      >div:last-child{
+        top: 0!important;
+      }
+    }
+    .draw-enter-to,.draw-leave{
+      height: 200px;
+    }
+    // 未读消息
+    .tabs-title{
+      position: relative;
+      z-index: 9999;
+    }
+    .tabs-toolbar{
+      position: absolute;
+      right:20px; 
+      top: 20px;
+      z-index: 9999;
+    }
+    .tabs-contents{
+      position: relative;
+      top: -25px;
+    }
+    .el-tabs__nav{
+      float: right;
+      margin-right:200px;
+    }
+    .tabs-content{
+      // overflow-y: scroll;
+      transition:$transition;
+    }
+    // 个人信息
+      .ibps-item-content{
+        img{
+            border-radius:50%;
+            width:$img-px;
+            height:$img-px;
+          }
+          .ibps-list-icon{
+            margin-left: 20px;
+          }
+          .ibps-list-main{
+            margin-left: 5% !important;
+            .ibps-list-title{font-size: 20px}
+            .ibps-list-label{font-size: 16px;margin-top: 15px;}
+          }
+      }
+    // 快捷导航
+    .nav-content{
+      overflow: hidden;
+      transition:$transition;
+      ul{
+        overflow: hidden;
+        padding: 0;
+        li{
+          float: left;
+          padding: 5px 10px;
+          a{
+            color:black;
+            &:hover{
+            color: #66b1ff;
+            }
+          }
+        }
+      }
+    }
+  } 
+}

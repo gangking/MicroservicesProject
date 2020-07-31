@@ -1,0 +1,218 @@
+{
+	"state": 200,
+	"request": null,
+	"message": "",
+	"cause": "",
+	"variables": {},
+	"data": [
+		{
+			"label": "基础配置",
+			"type": "basicConfig",
+			"tab": null,
+			"id": null,
+			"code": null,
+			"children": null
+		},
+		{
+			"label": "单行业务事务",
+			"type": "tableSingle",
+			"tab": null,
+			"id": null,
+			"code": null,
+			"children": [
+				{
+					"label": "抬头信息1",
+					"type": "pageSignItem",
+					"tab": null,
+					"id": "8800000001",
+					"code": "FM_CM01_HEAD_01",
+					"children": [
+						{
+							"label": "新增页签2",
+							"type": "pageSignItemForm",
+							"tab": null,
+							"id": "695391678420221952",
+							"code": "4565",
+							"children": null
+						},
+						{
+							"label": "财务条款",
+							"type": "pageSignItemForm",
+							"tab": null,
+							"id": "8800000003",
+							"code": "TAB03",
+							"children": null
+						},
+						{
+							"label": "履行情况",
+							"type": "pageSignItemForm",
+							"tab": null,
+							"id": "8800000004",
+							"code": "TAB04",
+							"children": null
+						}
+					]
+				}
+			]
+		},
+		{
+			"label": "多行业务事务",
+			"type": "tableMultiple",
+			"tab": null,
+			"id": null,
+			"code": null,
+			"children": [
+				{
+					"label": "付款条款",
+					"type": "tableMultipleItem",
+					"tab": null,
+					"id": "8800000002",
+					"code": "MLBT02",
+					"children": [
+						{
+							"label": "左侧栏",
+							"type": "leftColumn",
+							"tab": null,
+							"id": "8800000002",
+							"code": "MLBT02",
+							"children": null
+						},
+						{
+							"label": "业务类型",
+							"type": "businessTypeMultiple",
+							"tab": null,
+							"id": "8800000002",
+							"code": "MLBT02",
+							"children": [
+								{
+									"label": "新增业务类型分配",
+									"type": "businessTypeMultipleItem",
+									"tab": null,
+									"id": "695673425695342592",
+									"code": "001",
+									"children": null
+								}
+							]
+						}
+					]
+				},
+				{
+					"label": "抬头信息",
+					"type": "tableMultipleItem",
+					"tab": null,
+					"id": "8800000001",
+					"code": "MLBT01",
+					"children": [
+						{
+							"label": "左侧栏",
+							"type": "leftColumn",
+							"tab": null,
+							"id": "8800000001",
+							"code": "MLBT01",
+							"children": null
+						},
+						{
+							"label": "业务类型",
+							"type": "businessTypeMultiple",
+							"tab": null,
+							"id": "8800000001",
+							"code": "MLBT01",
+							"children": [
+								{
+									"label": "付款条款",
+									"type": "businessTypeMultipleItem",
+									"tab": null,
+									"id": "8800000001",
+									"code": "BC0101",
+									"children": null
+								}
+							]
+						}
+					]
+				},
+				{
+					"label": "新增多行业务事务编辑2",
+					"type": "tableMultipleItem",
+					"tab": null,
+					"id": "693028675209134080",
+					"code": "0054654",
+					"children": [
+						{
+							"label": "左侧栏",
+							"type": "leftColumn",
+							"tab": null,
+							"id": "693028675209134080",
+							"code": "0054654",
+							"children": null
+						},
+						{
+							"label": "业务类型",
+							"type": "businessTypeMultiple",
+							"tab": null,
+							"id": "693028675209134080",
+							"code": "0054654",
+							"children": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"label": "规则策略",
+			"type": "ruleStrategy",
+			"tab": null,
+			"id": null,
+			"code": null,
+			"children": [
+				{
+					"label": "分步策略",
+					"type": "ruleStrategy",
+					"tab": "disStrategy",
+					"id": null,
+					"code": null,
+					"children": null
+				},
+				{
+					"label": "打印模板",
+					"type": "ruleStrategy",
+					"tab": "printTemplate",
+					"id": null,
+					"code": null,
+					"children": null
+				},
+				{
+					"label": "有效性检查",
+					"type": "ruleStrategy",
+					"tab": "validityCheck",
+					"id": null,
+					"code": null,
+					"children": null
+				},
+				{
+					"label": "替代规则",
+					"type": "ruleStrategy",
+					"tab": "subRrules",
+					"id": null,
+					"code": null,
+					"children": null
+				},
+				{
+					"label": "凭证规则",
+					"type": "ruleStrategy",
+					"tab": "credentialRules",
+					"id": null,
+					"code": null,
+					"children": null
+				}
+			]
+		},
+		{
+			"label": "移动端",
+			"type": "ruleStrategy",
+			"tab": null,
+			"id": null,
+			"code": null,
+			"children": null
+		}
+	]
+}

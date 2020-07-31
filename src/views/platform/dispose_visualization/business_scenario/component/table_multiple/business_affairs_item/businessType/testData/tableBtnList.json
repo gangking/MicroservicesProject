@@ -1,0 +1,20 @@
+{
+    "tableBtnList": [
+      {
+        "label": "增加",
+        "incon": "el-icon-plus",
+        "type": "primary"
+      },
+      {
+        "label": "编辑",
+        "incon": "el-icon-edit",
+        "type": "primary"
+      },
+      {
+        "label": "删除",
+        "incon": "el-icon-delete",
+        "type": "danger"
+      }
+    ]
+  }
+  

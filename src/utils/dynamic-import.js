@@ -1,0 +1,1 @@
+export const dynamicImport = (path) => resolve => require([`@/views/platform/${path.replace('@/views/platform/', '')}`], resolve)

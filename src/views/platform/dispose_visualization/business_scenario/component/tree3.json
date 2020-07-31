@@ -1,0 +1,236 @@
+{
+  "state": 200,
+  "request": null,
+  "message": "",
+  "cause": "",
+  "variables": {},
+  "data": [
+    {
+      "label": "基础配置",
+      "type": "basicConfig",
+      "tab": null,
+      "children": [
+        {
+          "label": "业务类型",
+          "type": "basicConfig",
+          "tab": "businessType",
+          "children": null
+        }
+      ]
+    },
+    {
+      "label": "单行业务事务",
+      "type": "tableSingle",
+      "tab": null,
+      "children": [
+        {
+          "label": "款项支付确认",
+          "type": "pageSignItem",
+          "tab": null,
+          "children": [
+            {
+              "label": "支付信息",
+              "type": "pageSignItemForm",
+              "tab": null,
+              "children": null
+            },
+            {
+              "label": "提单信息",
+              "type": "pageSignItemForm",
+              "tab": null,
+              "children": null
+            }
+          ]
+        },
+        {
+          "label": "会计与审计",
+          "type": "pageSignItem",
+          "tab": null,
+          "children": [
+            {
+              "label": "关键信息",
+              "type": "pageSignItemForm",
+              "tab": null,
+              "children": null
+            }
+          ]
+        },
+        {
+          "label": "基础信息",
+          "type": "pageSignItem",
+          "tab": null,
+          "children": [
+            {
+              "label": "抬头信息",
+              "type": "pageSignItemForm",
+              "tab": null,
+              "children": null
+            },
+            {
+              "label": "支付信息",
+              "type": "pageSignItemForm",
+              "tab": null,
+              "children": null
+            },
+            {
+              "label": "前序申请",
+              "type": "pageSignItemForm",
+              "tab": null,
+              "children": null
+            },
+            {
+              "label": "其他信息",
+              "type": "pageSignItemForm",
+              "tab": null,
+              "children": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "多行业务事务",
+      "type": "tableMultiple",
+      "tab": null,
+      "children": [
+        {
+          "label": "费用报销",
+          "type": "tableMultipleItem",
+          "tab": null,
+          "children": [
+            {
+              "label": "左侧栏",
+              "type": "leftColumn",
+              "tab": null,
+              "children": null
+            },
+            {
+              "label": "业务类型",
+              "type": "businessTypeMultiple",
+              "tab": null,
+              "children": [
+                {
+                  "label": "机票费用",
+                  "type": "businessTypeMultipleItem",
+                  "tab": null,
+                  "children": null
+                },
+                {
+                  "label": "住宿费用",
+                  "type": "businessTypeMultipleItem",
+                  "tab": null,
+                  "children": null
+                },
+                {
+                  "label": "火车费用",
+                  "type": "businessTypeMultipleItem",
+                  "tab": null,
+                  "children": null
+                },
+                {
+                  "label": "网约车费",
+                  "type": "businessTypeMultipleItem",
+                  "tab": null,
+                  "children": null
+                },
+                {
+                  "label": "业务招待",
+                  "type": "businessTypeMultipleItem",
+                  "tab": null,
+                  "children": null
+                },
+                {
+                  "label": "出差补助",
+                  "type": "businessTypeMultipleItem",
+                  "tab": null,
+                  "children": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "商旅预定",
+          "type": "tableMultipleItem",
+          "tab": null,
+          "children": [
+            {
+              "label": "左侧栏",
+              "type": "leftColumn",
+              "tab": null,
+              "children": null
+            },
+            {
+              "label": "业务类型",
+              "type": "businessTypeMultiple",
+              "tab": null,
+              "children": [
+                {
+                  "label": "往返机票",
+                  "type": "businessTypeMultipleItem",
+                  "tab": null,
+                  "children": null
+                },
+                {
+                  "label": "单程机票",
+                  "type": "businessTypeMultipleItem",
+                  "tab": null,
+                  "children": null
+                },
+                {
+                  "label": "酒店预定",
+                  "type": "businessTypeMultipleItem",
+                  "tab": null,
+                  "children": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "规则策略",
+      "type": "ruleStrategy",
+      "tab": null,
+      "children": [
+        {
+          "label": "分步策略",
+          "type": "ruleStrategy",
+          "tab": "disStrategy",
+          "children": null
+        },
+        {
+          "label": "打印模板",
+          "type": "ruleStrategy",
+          "tab": "printTemplate",
+          "children": null
+        },
+        {
+          "label": "有效性检查",
+          "type": "ruleStrategy",
+          "tab": "validityCheck",
+          "children": null
+        },
+        {
+          "label": "替代规则",
+          "type": "ruleStrategy",
+          "tab": "subRrules",
+          "children": null
+        },
+        {
+          "label": "凭证规则",
+          "type": "ruleStrategy",
+          "tab": "credentialRules",
+          "children": null
+        }
+      ]
+    },
+    {
+      "label": "移动端",
+      "type": "ruleStrategy",
+      "tab": null,
+      "children": null
+    }
+  ]
+}

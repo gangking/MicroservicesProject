@@ -1,0 +1,11 @@
+{
+  "tabelData": [
+    {
+      "labelTxt": "申请核销金额",
+      "BOFont": "top",
+      "buttonIcon": "zichan-zhuanzhang",
+      "showOrder": "1",
+      "status": ""
+    }
+  ]
+}

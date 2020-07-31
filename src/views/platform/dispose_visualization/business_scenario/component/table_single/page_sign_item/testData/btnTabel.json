@@ -1,0 +1,39 @@
+{
+  "btntabel": [
+    {
+      "name": "增加",
+      "btnPosition": "顶部",
+      "btnIcon": "",
+      "sort": "",
+      "status": ""
+    },
+    {
+      "name": "保存",
+      "btnPosition": "顶部",
+      "btnIcon": "",
+      "sort": "",
+      "status": ""
+    },
+    {
+      "name": "退出",
+      "btnPosition": "右下",
+      "btnIcon": "",
+      "sort": "",
+      "status": ""
+    },
+    {
+      "name": "附件预览",
+      "btnPosition": "底部",
+      "btnIcon": "",
+      "sort": "",
+      "status": ""
+    },
+    {
+      "name": "附件列表",
+      "btnPosition": "底部",
+      "btnIcon": "",
+      "sort": "",
+      "status": ""
+    }
+  ]
+}

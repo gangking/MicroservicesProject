@@ -1,0 +1,36 @@
+{
+  "list": [
+    {
+      "personnel": "张三",
+      "personnelCode": "3000177",
+      "group": "诚信夜班组",
+      "status": "启用",
+      "role": "组长",
+      "notes": ""
+    },
+    {
+      "personnel": "李四",
+      "personnelCode": "3000178",
+      "group": "诚信夜班组",
+      "status": "启用",
+      "role": "组员",
+      "notes": ""
+    },
+    {
+      "personnel": "王五",
+      "personnelCode": "3000178",
+      "group": "诚信夜班组",
+      "status": "启用",
+      "role": "组员",
+      "notes": ""
+    },
+    {
+      "personnel": "赵六",
+      "personnelCode": "3000179",
+      "group": "诚信夜班组",
+      "status": "启用",
+      "role": "组员",
+      "notes": ""
+    }
+  ]
+}

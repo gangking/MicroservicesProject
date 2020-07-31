@@ -1,0 +1,16 @@
+{
+  "tabelData": [
+    {
+      "businessTypeCode": "BC01",
+      "businessTypeDesc": "往返机票",
+      "showName": "往返机票",
+      "status": ""
+    },
+    {
+      "businessTypeCode": "BC02",
+      "businessTypeDesc": "单程机票",
+      "showName": "单程机票",
+      "status": ""
+    }
+  ]
+}

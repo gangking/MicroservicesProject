@@ -1,0 +1,12 @@
+{
+  "tabelData": [
+    {
+      "primaryKey": "1800000001",
+      "pageDifPrimaryKey": "1800000001",
+      "pageDifId": "TAB01",
+      "formCode": "EM0101_BS00_SLBT01_Tab1",
+      "formDesc": "往返机票",
+      "status": ""
+    }
+  ]
+}

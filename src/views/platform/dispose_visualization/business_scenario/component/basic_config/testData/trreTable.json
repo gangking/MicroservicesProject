@@ -1,0 +1,72 @@
+{
+  "state": 200,
+  "request": null,
+  "message": "",
+  "cause": "",
+  "variables": {},
+  "data": [
+    {
+      "id": "1800000100",
+      "bcCode": "BCG100",
+      "bcDescribe": "商旅申请",
+      "isGroup": "Y",
+      "parentId": "-1",
+      "bsKey": "1800000001",
+      "bsCode": "SCEM0101_BS00",
+      "children": [
+        {
+          "id": "1800000120",
+          "bcCode": "BCG120",
+          "bcDescribe": "酒店",
+          "isGroup": "Y",
+          "parentId": "1800000100",
+          "bsKey": "1800000001",
+          "bsCode": "SCEM0101_BS00",
+          "children": [
+            {
+              "id": "1800000003",
+              "bcCode": "BC03",
+              "bcDescribe": "酒店预定",
+              "isGroup": "N",
+              "parentId": "1800000120",
+              "bsKey": "1800000001",
+              "bsCode": "SCEM0101_BS00",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "1800000110",
+          "bcCode": "BCG110",
+          "bcDescribe": "机票",
+          "isGroup": "Y",
+          "parentId": "1800000100",
+          "bsKey": "1800000001",
+          "bsCode": "SCEM0101_BS00",
+          "children": [
+            {
+              "id": "1800000002",
+              "bcCode": "BC02",
+              "bcDescribe": "单程机票",
+              "isGroup": "N",
+              "parentId": "1800000110",
+              "bsKey": "1800000001",
+              "bsCode": "SCEM0101_BS00",
+              "children": []
+            },
+            {
+              "id": "1800000001",
+              "bcCode": "BC01",
+              "bcDescribe": "往返机票",
+              "isGroup": "N",
+              "parentId": "1800000110",
+              "bsKey": "1800000001",
+              "bsCode": "SCEM0101_BS00",
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

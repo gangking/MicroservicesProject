@@ -1,0 +1,58 @@
+{
+  "data": [
+    {
+      "label": "组织管理",
+      "type": "organization",
+      "children": [
+        {
+          "label": "财务共享中心",
+          "type": "sharedPool",
+          "children": [
+            {
+              "label": "初审池",
+              "type": "businessGroup",
+              "children": [
+                {
+                  "label": "费用报账组",
+                  "type": "oneBusinessGroup",
+                  "children": [
+                    {
+                      "label": "诚信报账组",
+                      "type": "twoBusinessGroup",
+                      "children": [
+                        {
+                          "label": "诚信白班组",
+                          "type": "twoBusinessGroup"
+                        },
+                        {
+                          "label": "诚信夜班组",
+                          "type": "twoBusinessGroup"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "综合总账组",
+                  "type": "oneBusinessGroup"
+                },
+                {
+                  "label": "资产管理组",
+                  "type": "oneBusinessGroup"
+                }
+              ]
+            },
+            {
+              "label": "复审池",
+              "type": "businessGroup"
+            }
+          ]
+        },
+        {
+          "label": "财务共享分中心",
+          "type": "sharedPool"
+        }
+      ]
+    }
+  ]
+}

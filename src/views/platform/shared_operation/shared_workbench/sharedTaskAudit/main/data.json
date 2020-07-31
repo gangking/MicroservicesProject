@@ -1,0 +1,20 @@
+{
+  "list": [
+    {
+      "doc": "AM20200103000051",
+      "docDesc": "",
+      "companyCode": "1000",
+      "PRCTR": "100000234",
+      "applicant": "王凯",
+      "busScenario": "资产付款单",
+      "amount": "50000",
+      "dateSubmit": "2029-12-09",
+      "dataPool": "2029-12-20",
+      "docStatus": "",
+      "auditTimeout": "否",
+      "duration": "-520",
+      "merchantsCode": "12345678",
+      "merchantsName": "湖北奥雷给"
+    }
+  ]
+}

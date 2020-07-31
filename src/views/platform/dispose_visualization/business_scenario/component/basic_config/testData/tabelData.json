@@ -1,0 +1,20 @@
+{
+  "tabelData": [
+    {
+      "primaryKey": "1800000001",
+      "sceneEncoding": "SCEM0101_BS00",
+      "sceneDesc": "商旅费控业务场景",
+      "situationEncoding": "EM0101-BS00-0001",
+      "situationName": "商旅预定",
+      "status": ""
+    },
+    {
+      "primaryKey": "1800000001",
+      "sceneEncoding": "SCEM0101_BS00",
+      "sceneDesc": "商旅费控业务场景",
+      "situationEncoding": "EM0101-BS00-0001",
+      "situationName": "商旅预定",
+      "status": ""
+    }
+  ]
+}

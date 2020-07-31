@@ -1,0 +1,39 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: fssc-web
+spec:
+  replicas: 1
+  minReadySeconds: 1
+  strategy:  
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 0
+  template:
+    metadata:
+      labels:
+        app: fssc-web
+    spec:
+      imagePullSecrets:
+      - name: login-registry-fssc
+      containers:
+      - image: <dockerHubIp>/<dockerHubProjectName>/fssc-web:<BUILD_NUMBER>
+        imagePullPolicy: IfNotPresent
+        name: fssc-web
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: fssc-web
+spec:
+  clusterIP: 10.254.0.17
+  type: NodePort
+ # externalTrafficPolicy: Local
+  ports:
+    - targetPort: 80
+      port: 80   
+      nodePort: 30080
+      name: fsscweb
+  selector:
+    app: fssc-web

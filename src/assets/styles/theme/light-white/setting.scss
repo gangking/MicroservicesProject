@@ -1,0 +1,79 @@
+// 主题名称
+$theme-name: 'light-white';
+// 主题背景颜色
+$theme-bg-color: linear-gradient(to right, #fff 0%, rgb(169, 188, 204) 100%);
+// 主题背景图片遮罩
+$theme-bg-mask: rgba(#FFF, 1);
+
+// container组件
+$theme-container-background-color: rgba(#FFF, .9);
+$theme-container-header-footer-background-color: #FFF;
+$theme-container-border-inner: 1px solid $color-border-1;
+$theme-container-border-outer: 1px solid rgb(207, 228, 238);
+
+$theme-multiple-page-control-color: #F56C6C;
+$theme-multiple-page-control-color-active: $color-text-normal;
+$theme-multiple-page-control-nav-prev-color: #F56C6C;
+$theme-multiple-page-control-nav-next-color: #F56C6C;
+$theme-multiple-page-control-border-color: #114450;
+$theme-multiple-page-control-border-color-active: #F56C6C;
+$theme-multiple-page-control-background-color: rgba(#F56C6C, .5);
+$theme-multiple-page-control-background-color-active: #F56C6C;
+
+// logo的文字颜色
+$theme-logo-group-color: #E60000;
+$theme-logo-group-title-color: #4E5367;
+// logo的背景颜色
+$theme-logo-group-background-color: #fff;
+
+
+
+// 顶栏和侧边栏中展开的菜单 hover 状态下
+$theme-menu-item-color-hover: #293849;
+$theme-menu-item-background-color-hover: #ecf5ff;
+// 顶栏上的文字颜色
+$theme-header-item-color: #4E5367;
+$theme-header-item-background-color: transparent;
+// 顶栏上的项目在 hover 时
+$theme-header-item-color-hover: #4E5367;
+$theme-header-item-background-color-hover: rgba(#000, .2);
+// 顶栏上的项目在 focus 时
+$theme-header-item-color-focus: #4E5367;
+$theme-header-item-background-color-focus: rgba(#000, .2);
+// 顶栏上的项目在 active 时
+$theme-header-item-color-active: #03a9f3;
+$theme-header-item-background-color-active: rgba(#000, .3);
+
+
+
+// 侧边栏上的文字颜色
+$theme-aside-item-color: #8d97ad;
+$theme-aside-item-background-color: transparent;
+// 侧边栏上的项目在 hover 时
+$theme-aside-item-color-hover: #F56C6C;
+$theme-aside-item-background-color-hover: rgba(#F56C6C, .9);
+// 侧边栏上的项目在 focus 时
+$theme-aside-item-color-focus: #F56C6C;
+$theme-aside-item-background-color-focus: rgba(#000, .2);
+// 侧边栏上的项目在 active 时
+$theme-aside-item-color-active: #F56C6C;
+$theme-aside-item-background-color-active: rgba(#F56C6C, .9);
+// 左侧菜单的背景颜色
+$theme-header-aside-background-color:#FFFFFF;
+
+
+
+
+
+
+
+// 侧边栏菜单为空的时候显示的元素
+$theme-aside-menu-empty-icon-color: #FFF;
+$theme-aside-menu-empty-text-color: #FFF;
+$theme-aside-menu-empty-background-color: rgba(#FFF, .2);
+$theme-aside-menu-empty-icon-color-hover: #FFF;
+$theme-aside-menu-empty-text-color-hover: #FFF;
+$theme-aside-menu-empty-background-color-hover: rgba(#FFF, .3);
+
+// 侧边栏  下方 伸缩按钮样式
+$theme-aside-toggle-color:#4E5367;

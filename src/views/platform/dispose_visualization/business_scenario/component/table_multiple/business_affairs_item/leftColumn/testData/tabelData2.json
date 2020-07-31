@@ -1,0 +1,18 @@
+{
+  "tabelData": [
+    {
+      "fieldDesc": "业务类型",
+      "fieldName": "POSNR",
+      "showName": "行号",
+      "richtextbox": "富文本框",
+      "status": ""
+    },
+    {
+      "fieldDesc": "申请金额",
+      "fieldName": "RequestedAmount",
+      "showName": "申请金额",
+      "richtextbox": "富文本框",
+      "status": ""
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "tabelData": [
+    {
+      "primaryKey": "1800000001",
+      "singleFormId": "EM0101_BS00_SLBT01",
+      "singleFormDesc": "基础信息",
+      "singleFormPageId": "TAB01",
+      "PageDesc": "抬头信息",
+      "sort": "1",
+      "renderingMeth": "下划线",
+      "businessGroup": "N",
+      "pageBoost": "payableDynamicForm",
+      "status": ""
+    }
+  ]
+}

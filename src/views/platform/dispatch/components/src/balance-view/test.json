@@ -1,0 +1,88 @@
+{
+  "list": [
+    {
+      "code": "001",
+      "natureName": "张三",
+      "nature": "无",
+      "balanceVal": "",
+      "dmbtrAp": "100",
+      "dmbtrOp": "100",
+      "dmbtrAr": "100",
+      "dmbtrOr": "100",
+      "dmbtrPd": "100",
+      "dmbtrOpd": "100",
+      "dmbtrRd": "100",
+      "dmbtrOrd": "100"
+    },
+    {
+      "code": "002",
+      "natureName": "李四",
+      "nature": "无",
+      "balanceVal": "",
+      "dmbtrAp": "100",
+      "dmbtrOp": "100",
+      "dmbtrAr": "100",
+      "dmbtrOr": "100",
+      "dmbtrPd": "100",
+      "dmbtrOpd": "100",
+      "dmbtrRd": "100",
+      "dmbtrOrd": "100"
+    },
+    {
+      "code": "001",
+      "natureName": "张三",
+      "nature": "无",
+      "balanceVal": "",
+      "dmbtrAp": "100",
+      "dmbtrOp": "120",
+      "dmbtrAr": "102",
+      "dmbtrOr": "103",
+      "dmbtrPd": "105",
+      "dmbtrOpd": "106",
+      "dmbtrRd": "100",
+      "dmbtrOrd": "100"
+    },
+    {
+      "code": "003",
+      "natureName": "王五",
+      "nature": "无",
+      "balanceVal": "",
+      "dmbtrAp": "100",
+      "dmbtrOp": "100",
+      "dmbtrAr": "100",
+      "dmbtrOr": "100",
+      "dmbtrPd": "100",
+      "dmbtrOpd": "100",
+      "dmbtrRd": "100",
+      "dmbtrOrd": "100"
+    },
+    {
+      "code": "002",
+      "natureName": "李四",
+      "nature": "无",
+      "balanceVal": "",
+      "dmbtrAp": "100",
+      "dmbtrOp": "120",
+      "dmbtrAr": "102",
+      "dmbtrOr": "103",
+      "dmbtrPd": "105",
+      "dmbtrOpd": "106",
+      "dmbtrRd": "100",
+      "dmbtrOrd": "100"
+    },
+    {
+      "code": "003",
+      "natureName": "王五",
+      "nature": "无",
+      "balanceVal": "",
+      "dmbtrAp": "100",
+      "dmbtrOp": "120",
+      "dmbtrAr": "102",
+      "dmbtrOr": "103",
+      "dmbtrPd": "105",
+      "dmbtrOpd": "106",
+      "dmbtrRd": "100",
+      "dmbtrOrd": "100"
+    }
+  ]
+}

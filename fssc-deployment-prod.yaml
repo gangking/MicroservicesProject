@@ -1,0 +1,60 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: ibps-nginx
+spec:
+  replicas: 1
+  minReadySeconds: 1
+  strategy:  
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 0
+  template:
+    metadata:
+      labels:
+        app: ibps-nginx
+    spec:
+      imagePullSecrets:
+      - name: registry-key
+      containers:
+      - image: <dockerHubIp>/<dockerHubProjectName>/ibps-nginx:<BUILD_NUMBER>
+        imagePullPolicy: IfNotPresent
+        name: ibps-nginx
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: ibps-nginx
+spec:
+  clusterIP: 10.254.0.138
+  type: NodePort
+ # externalTrafficPolicy: Local
+  ports:
+    - port: 80
+      targetPort: 80
+      name: fsscweb
+      nodePort: 30090
+      protocol: TCP
+    - port: 801
+      targetPort: 801
+      name: dashboard
+      nodePort: 31758
+      protocol: TCP  
+    - port: 802
+      targetPort: 802
+      name: admin
+      nodePort: 32766
+      protocol: TCP
+    - port: 803
+      targetPort: 803
+      name: kibana
+      nodePort: 32759
+      protocol: TCP
+    - port: 804
+      targetPort: 804
+      name: consul
+      nodePort: 31976
+      protocol: TCP
+  selector:
+    app: ibps-nginx

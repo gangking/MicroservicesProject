@@ -1,0 +1,14 @@
+{
+  "tabelData": [
+    {
+      "businessTypeCode": "BC01",
+      "businessTypedesc": "往返机票",
+      "isBusinessType": false
+    },
+    {
+      "businessTypeCode": "BC01",
+      "businessTypedesc": "往返机票",
+      "isBusinessType": true
+    }
+  ]
+}

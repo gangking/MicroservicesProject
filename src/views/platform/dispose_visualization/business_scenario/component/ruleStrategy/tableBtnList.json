@@ -1,0 +1,29 @@
+{
+  "tableBtnList": [
+    {
+      "label": "增加",
+      "incon": "el-icon-plus",
+      "type": "primary"
+    },
+    {
+      "label": "编辑",
+      "incon": "el-icon-edit",
+      "type": "primary"
+    },
+    {
+      "label": "删除",
+      "incon": "el-icon-delete",
+      "type": "danger"
+    },
+    {
+      "label": "锁定",
+      "incon": "el-icon-lock",
+      "type": "danger"
+    },
+    {
+      "label": "保存",
+      "incon": "el-icon-check",
+      "type": "success"
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "list": [
+    {
+      "id": "1",
+      "name": "抬头表字段",
+      "accRuleConfPoList": [],
+      "children": [
+        {
+          "id": "11",
+          "name": "业务场景应用",
+          "accRuleConfPoList": [
+            {
+              "pk": "",
+              "name": null,
+              "ip": null,
+              "createBy": null,
+              "createTime": null,
+              "updateBy": null,
+              "updateTime": null,
+              "tenantId": null,
+              "dataStatus": null,
+              "dbtype": null,
+              "id": "697104500275544066",
+              "ruleId": "648459731379159040",
+              "posnrId": "697104500275544065",
+              "step": 1,
+              "prerequisite": "BO_GL06_HEAD_BS_DESC",
+              "prerequisiteArr": "[{\"id\":\"641967548950118400\",\"name\":\"业务场景描述\",\"key\":\"BS_DESC\",\"parentId\":\"641967548769763328\",\"type\":\"varchar\",\"attrType\":\"field\",\"tableName\":\"BO_GL06_HEAD\",\"icon\":\"fa fa-varchar\",\"relation\":\"one2many\",\"isPk\":false}]",
+              "expression": "BO_GL06_HEAD_BUKRS",
+              "expressionArr": "[{\"id\":\"641967549008838656\",\"name\":\"公司代码\",\"key\":\"BUKRS\",\"parentId\":\"641967548769763328\",\"type\":\"varchar\",\"attrType\":\"field\",\"tableName\":\"BO_GL06_HEAD\",\"icon\":\"fa fa-varchar\",\"relation\":\"one2many\",\"isPk\":false}]"
+            },
+            {
+              "pk": "",
+              "name": null,
+              "ip": null,
+              "createBy": null,
+              "createTime": null,
+              "updateBy": null,
+              "updateTime": null,
+              "tenantId": null,
+              "dataStatus": null,
+              "dbtype": null,
+              "id": "697104500275544067",
+              "ruleId": "648459731379159040",
+              "posnrId": "697104500275544065",
+              "step": 2,
+              "prerequisite": "BO_GL06_HEAD_BS_CODE",
+              "prerequisiteArr": "[{\"id\":\"641967548933341184\",\"name\":\"业务场景ID\",\"key\":\"BS_CODE\",\"parentId\":\"641967548769763328\",\"type\":\"varchar\",\"attrType\":\"field\",\"tableName\":\"BO_GL06_HEAD\",\"icon\":\"fa fa-varchar\",\"relation\":\"one2many\",\"isPk\":false}]",
+              "expression": "BO_GL06_HEAD_updateTime",
+              "expressionArr": "[{\"id\":\"641967548912369664\",\"name\":\"更新时间\",\"key\":\"updateTime\",\"parentId\":\"641967548769763328\",\"type\":\"date\",\"attrType\":\"field\",\"tableName\":\"BO_GL06_HEAD\",\"icon\":\"fa fa-date\",\"relation\":\"one2many\",\"isPk\":false}]"
+            },
+            {
+              "pk": "",
+              "name": null,
+              "ip": null,
+              "createBy": null,
+              "createTime": null,
+              "updateBy": null,
+              "updateTime": null,
+              "tenantId": null,
+              "dataStatus": null,
+              "dbtype": null,
+              "id": "697104500275544068",
+              "ruleId": "648459731379159040",
+              "posnrId": "697104500275544065",
+              "step": 3,
+              "prerequisite": "BO_GL06_HEAD_createBy",
+              "prerequisiteArr": "[{\"id\":\"641967548862038016\",\"name\":\"创建人\",\"key\":\"createBy\",\"parentId\":\"641967548769763328\",\"type\":\"varchar\",\"attrType\":\"field\",\"tableName\":\"BO_GL06_HEAD\",\"icon\":\"fa fa-varchar\",\"relation\":\"one2many\",\"isPk\":false}]",
+              "expression": "BO_GL06_HEAD_updateBy",
+              "expressionArr": "[{\"id\":\"641967548895592448\",\"name\":\"更新人\",\"key\":\"updateBy\",\"parentId\":\"641967548769763328\",\"type\":\"varchar\",\"attrType\":\"field\",\"tableName\":\"BO_GL06_HEAD\",\"icon\":\"fa fa-varchar\",\"relation\":\"one2many\",\"isPk\":false}]"
+            }
+          ]
+        },
+        {
+          "id": "12",
+          "name": "业务情形",
+          "accRuleConfPoList": [
+            {
+              "pk": "",
+              "name": null,
+              "ip": null,
+              "createBy": null,
+              "createTime": null,
+              "updateBy": null,
+              "updateTime": null,
+              "tenantId": null,
+              "dataStatus": null,
+              "dbtype": null,
+              "id": "681799653313740804",
+              "ruleId": "644268507629879296",
+              "posnrId": "681799653313740803",
+              "step": 1,
+              "prerequisite": "",
+              "prerequisiteArr": "",
+              "expression": "BO_GL03_HEAD_DOC_NUMBER",
+              "expressionArr": "[{\"id\":\"637338699540987904\",\"name\":\"单据号码\",\"key\":\"DOC_NUMBER\",\"parentId\":\"636203172418813952\",\"type\":\"varchar\",\"attrType\":\"field\",\"tableName\":\"BO_GL03_HEAD\",\"icon\":\"fa fa-varchar\",\"relation\":\"one2many\",\"isPk\":false}]"
+            }
+          ]
+        },
+        {
+          "id": "13",
+          "name": "公司代码",
+          "accRuleConfPoList": []
+        },
+        {
+          "id": "14",
+          "name": "电话费差标",
+          "accRuleConfPoList": []
+        },
+        {
+          "id": "15",
+          "name": "借方合计",
+          "accRuleConfPoList": []
+        },
+        {
+          "id": "16",
+          "name": "贷方合计",
+          "accRuleConfPoList": []
+        },
+        {
+          "id": "17",
+          "name": "前置表单_费用申请单ID",
+          "accRuleConfPoList": []
+        },
+        {
+          "id": "18",
+          "name": "电话费申请金额",
+          "accRuleConfPoList": []
+        },
+        {
+          "id": "19",
+          "name": "前置表单_付款合同ID",
+          "accRuleConfPoList": []
+        },
+        {
+          "id": "20",
+          "name": "合同预算余额",
+          "accRuleConfPoList": []
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "子表字段-报销",
+      "accRuleConfPoList": [],
+      "children": [
+        {
+          "id": "21",
+          "name": "业务类型",
+          "accRuleConfPoList": []
+        },
+        {
+          "id": "22",
+          "name": "记账金额",
+          "accRuleConfPoList": []
+        },
+        {
+          "id": "23",
+          "name": "会计科目",
+          "accRuleConfPoList": []
+        },
+        {
+          "id": "24",
+          "name": "合同金额",
+          "accRuleConfPoList": []
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "子表字段-付款",
+      "accRuleConfPoList": [],
+      "children": [
+        {
+          "id": "31",
+          "name": "业务类型",
+          "accRuleConfPoList": []
+        },
+        {
+          "id": "33",
+          "name": "会计科目",
+          "accRuleConfPoList": []
+        },
+        {
+          "id": "34",
+          "name": "合同金额",
+          "accRuleConfPoList": []
+        },
+        {
+          "id": "35",
+          "name": "借贷方标识",
+          "accRuleConfPoList": []
+        }
+      ]
+    }
+  ]
+}

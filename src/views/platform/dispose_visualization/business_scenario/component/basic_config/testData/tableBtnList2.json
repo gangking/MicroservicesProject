@@ -1,0 +1,19 @@
+{
+  "tableBtnList": [
+    {
+      "label": "本级增加",
+      "incon": "el-icon-plus",
+      "type": "primary"
+    },
+    {
+      "label": "下级增加",
+      "incon": "el-icon-plus",
+      "type": "primary"
+    },
+    {
+      "label": "删除",
+      "incon": "el-icon-delete",
+      "type": "danger"
+    }
+  ]
+}

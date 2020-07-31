@@ -1,0 +1,100 @@
+.el-card {
+    /deep/ .el-card__body {
+      height: 95%;
+      // padding-top: 0px;
+    }
+  }
+/deep/ .el-dialog__header{
+  padding: 0 !important;
+}
+/deep/ .el-dialog{
+    height: 80%;
+}
+.title {
+  position: relative;
+  height: 38px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #ccc;
+  .redblock {
+    position: absolute;
+    top: 12px;
+    display: inline-block;
+    width: 5px;
+    height: 17px;
+    background-color: #e61a23;
+  }
+  p {
+    position: absolute;
+    left: 20px;
+    top: 6px;
+    margin: 0;
+    width: 150px;
+  }
+}
+.btn {
+  position: relative;
+  height: 40px;
+  width: 100%;
+  padding-left: 50px;
+  margin-bottom: -6px;
+  .elbtn {
+    padding: 6px 10px;
+    margin-right: 6px;
+    .iconbtn {
+      display: inline-block;
+    }
+    .icontext{
+      margin-left: 5px;
+    }
+  }
+  .rightbtn{
+    position: absolute;
+    right: 72px;
+    top: 3px;
+    height: 40px;
+    .selectBox{
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    
+    .filter{
+      position: relative;
+      border: none !important;
+      font-size: 17px;
+      padding: 3px !important;
+      margin-right: 5px !important;
+      width: 25px;
+      height: 25px;
+      /deep/ .is-dot{
+        width: 8px !important;
+        height: 8px !important;
+      }
+      .filbtn{
+        display: inline-block;
+        color:#006397;
+      }
+    }
+    .othbtn{
+      top: 1px;
+    }
+  }
+}
+.datatable {
+  height: 84%;
+  .subject {
+    color: #40aaff;
+    cursor: pointer;
+  }
+  /deep/ .el-table .cell .caret-wrapper{
+    width: 12px;
+    height: 34px;
+  }
+}
+.foot {
+  width: 560px;
+  margin: 13px auto;
+}

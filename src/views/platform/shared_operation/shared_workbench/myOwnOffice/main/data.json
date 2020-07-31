@@ -1,0 +1,60 @@
+{
+  "list": [
+    {
+      "doc": "AM20200103000035",
+      "docDesc": "",
+      "companyCode": "1000",
+      "PRCTR": "100000234",
+      "applicant": "王凯",
+      "busScenario": "资产付款单",
+      "amount": "500",
+      "dateSubmit": "2029-12-09",
+      "dataPool": "2029-12-20",
+      "dataDispatch": "2029-12-20",
+      "docStatus": "未审核",
+      "taskHolder": ""
+    },
+    {
+      "doc": "AM20200103000034",
+      "docDesc": "",
+      "companyCode": "1000",
+      "PRCTR": "100000234",
+      "applicant": "王凯",
+      "busScenario": "资产付款单",
+      "amount": "600",
+      "dateSubmit": "2029-12-09",
+      "dataPool": "2029-12-20",
+      "dataDispatch": "2029-12-20",
+      "docStatus": "未审核",
+      "taskHolder": ""
+    },
+    {
+      "doc": "AM20200103000033",
+      "docDesc": "",
+      "companyCode": "1000",
+      "PRCTR": "100000234",
+      "applicant": "王凯",
+      "busScenario": "资产付款单",
+      "amount": "700",
+      "dateSubmit": "2029-12-09",
+      "dataPool": "2029-12-20",
+      "dataDispatch": "2029-12-20",
+      "docStatus": "未审核",
+      "taskHolder": ""
+    },
+    {
+      "doc": "AM20200103000032",
+      "docDesc": "",
+      "companyCode": "1000",
+      "PRCTR": "100000234",
+      "applicant": "王凯",
+      "busScenario": "资产付款单",
+      "amount": "800",
+      "dateSubmit": "2029-12-09",
+      "dataPool": "2029-12-20",
+      "dataDispatch": "2029-12-20",
+      "docStatus": "未审核",
+      "taskHolder": ""
+    }
+  ]
+}

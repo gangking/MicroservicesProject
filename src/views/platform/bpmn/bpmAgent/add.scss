@@ -1,0 +1,26 @@
+/deep/ .el-dialog__body{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.search{
+  margin-bottom: 10px;
+  .option{
+    width: 500px;
+    display: inline-block;
+    .el-input{
+      width: 400px;
+    }
+  }
+}
+.foot{
+  padding-left: 200px;
+}
+.btn{
+  margin: 10px 20px 0 0;
+}
+.btn:nth-child(1){
+  margin-left: 280px;
+}
+.table{
+  height: 448px;
+}
